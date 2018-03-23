@@ -117,21 +117,8 @@ h3:after {
     
 }
 
-#picture {
-    border-radius: 10px;
-    position: relative;  
-}
-#picture2 {
-    border-radius: 10px;
-    margin-bottom: 24px;
-    margin-top: 25px;
-    position: relative;  
-}
-#picture3 {
-    border-radius: 10px;
-    margin-bottom: 55px;
-    margin-top: 50px;
-    position: relative;  
+#box {
+     padding: 25px;
 }
 #picture4 {
     border-radius: 10px;
@@ -145,6 +132,7 @@ h3:after {
     margin-top: 25px;
     position: relative;  
 }
+
 
 #pie{
     margin-top: 10%;
