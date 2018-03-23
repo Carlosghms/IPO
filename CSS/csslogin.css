@@ -120,6 +120,18 @@ h3:after {
 #box {
      padding: 25px;
 }
+#picture4 {
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 28%;
+    margin-top: 40%;
+}
+#picture5 {
+    border-radius: 10px;
+    margin-bottom: -1px;
+    margin-top: 25px;
+    position: relative;  
+}
 
 
 #pie{
