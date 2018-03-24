@@ -38,10 +38,10 @@
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                          <ul class="navbar-nav ml-auto">
                               <li class="nav-item">
-                                   <a class="nav-link" href="evaluacion.html">Atrás <i class="fa fa-arrow-left"></i></a>
+                                   <a class="nav-link" href="progreso.html">Atrás <i class="fa fa-arrow-left"></i></a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link" href="./signup.html">Javier García <i class="fa fa-user"></i></a>
+                                   <a class="nav-link" href="login.html">Profesor: Jorge López <i class="fa fa-user"></i></a>
                               </li>
                               <li class="nav-item">
                                    <a class="nav-link" href="login.html">Salir <i class="fa fa-sign-out-alt"></i></a>
@@ -81,6 +81,8 @@
                                         </div>
                                    </fieldset>
                               </form>
+                              <i class="fa fa-check"></i>
+                              <button type="submit" class="btn btn-primary">Añadir corrección</button>
                          </div>
                     </div>
                     <div class="card" style="width: 80%; border: 3px solid; border-color: #4dd2ff; margin-bottom: 1rem">
@@ -91,13 +93,13 @@
                                    <fieldset class="form-group">
                                         <div class="form-check">
                                              <label class="form-check-label">
-                                                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" >
                                                   Option one is this and that&mdash;be sure to include why it's great
                                              </label>
                                         </div>
                                         <div class="form-check">
                                              <label class="form-check-label">
-                                                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2" checked>
                                                   Option two can be something else and selecting it will deselect option one
                                              </label>
                                         </div>
@@ -109,6 +111,12 @@
                                         </div>
                                    </fieldset>
                               </form>
+                              <i class="fas fa-times"></i>
+                              <button type="submit" class="btn btn-primary">Editar corrección</button>
+                              <div class="form-group">
+                                   <label for="exampleTextarea"><h5>Corrección</h5></label>
+                                   <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Tempus quam pellentesque nec nam aliquam sem et tortor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Amet aliquam id diam maecenas ultricies. Nunc sed id semper risus. Consectetur purus ut faucibus pulvinar elementum. Aliquam ut porttitor leo a." disabled></textarea>
+                              </div>
                          </div>
                     </div>
                     <div class="card" style="width: 80%; border: 3px solid; border-color: #4dd2ff; margin-bottom: 1rem">
@@ -119,7 +127,7 @@
                                    <fieldset class="form-group">
                                         <div class="form-check">
                                              <label class="form-check-label">
-                                                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
                                                   Option one is this and that&mdash;be sure to include why it's great
                                              </label>
                                         </div>
@@ -131,12 +139,14 @@
                                         </div>
                                         <div class="form-check disabled">
                                              <label class="form-check-label">
-                                                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+                                                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" checked>
                                                   Option three is disabled
                                              </label>
                                         </div>
                                    </fieldset>
                               </form>
+                              <i class="fas fa-times"></i>
+                              <button type="submit" class="btn btn-primary">Añadir corrección</button>
                          </div>
                     </div>
                     <div class="card" style="width: 80%; border: 3px solid; border-color: #4dd2ff; margin-bottom: 1rem">
@@ -144,8 +154,10 @@
                               <h5 class="card-title">Cuarta Pregunta</h5>
                               <p class="card-text">El ser humano fue capaz de controlar el fuego a partir del sigo ....... a.C</p>
                               <div class="form-group">
-                                   <input type="text" class="form-control" id="formGroupExampleInput">
+                                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="20" disabled>
                               </div>
+                              <i class="fa fa-check"></i>
+                              <button type="submit" class="btn btn-primary">Añadir corrección</button>
                          </div>
                     </div>
                     <div class="card" style="width: 80%; border: 3px solid; border-color: #4dd2ff; margin-bottom: 1rem">
@@ -153,11 +165,20 @@
                               <h5 class="card-title">Quinta Pregunta</h5>
                               <p class="card-text">Explica por que crees que fue tan importante el descubrimiento del fuego para la humanidad</p>
                               <div class="form-group">
-                                   <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                   <textarea class="form-control" id="exampleTextarea" placeholder="Tempus quam pellentesque nec nam aliquam sem et tortor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Amet aliquam id diam maecenas ultricies. Nunc sed id semper risus. Consectetur purus ut faucibus pulvinar elementum. Aliquam ut porttitor leo a.
+
+                                                                                                    Id porta nibh venenatis cras sed. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum varius. Sit amet facilisis magna etiam tempor orci eu lobortis. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Eu nisl nunc mi ipsum faucibus vitae aliquet nec. Parturient montes nascetur ridiculus mus mauris. Curabitur gravida arcu ac tortor dignissim." rows="4" disabled></textarea>
+                                   <button type="submit" class="btn btn-primary">Añadir corrección</button>
+                                   <div class="form-check">
+                                        <label class="form-check-label">
+                                             <input class="form-check-input" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                                             <a>Marcar como correcta</a>
+                                        </label>
+                                   </div>
                               </div>
                          </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Terminar el exámen!</button>
+                    <button type="submit" class="btn btn-primary">Enviar Corrección</button>
                </div>
           </section>
           <!-- Bootstrap core JavaScript -->

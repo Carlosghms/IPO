@@ -24,7 +24,6 @@
         <link href="CSS/csslogin.css" rel="stylesheet">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
     </head>
     <body>
         <!-- Navigation -->
@@ -38,10 +37,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="clase.html">Atrás <i class="fa fa-arrow-left"></i></a>
+                            <a class="nav-link" href="evaluacion.html">Atrás <i class="fa fa-arrow-left"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./signup.html">Javier García <i class="fa fa-user"></i></a>
+                            <a class="nav-link" href="login.html">Javier García <i class="fa fa-user"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.html">Salir <i class="fa fa-sign-out-alt"></i></a>
@@ -54,34 +53,29 @@
 
         <section class="login-block">
             <div class="container login mt-4">
-                <h3 class="text-center">Evaluación!</h3>
-                <form action="notas.html">
-                    <div align="center">
-                        <button type="submit" class="btn btn-primary">Ver mis notas!</button>
-                    </div>
-                </form>
                 <div class="row">
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href="examen-tipo.html"><img class="img-fluid" id="picture" src="Images/fuego.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 1: Descubriendo el Fuego</p>
-                    </div>
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href=""><img class="img-fluid" id="picture" src="Images/metales.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 1: La edad de los metales</p>
-                    </div>
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href=""><img class="img-fluid" id="picture" src="Images/ganaderia.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 1: La ganadería</p>
-                    </div>
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href=""><img class="img-fluid" id="picture" src="Images/grecia.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 2: La Grecia Antigua</p>
-                    </div>
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href=""><img class="img-fluid" id="picture" src="Images/roma.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 2: Los Romanos</p>
+                    <div class="col-12">
+                        <h3 class="text-center">¡Mis Notas!</h3>
                     </div>
                 </div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Exámen</th>
+                            <th scope="col">Nota</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Exámen del tema 1: Descubriendo el Fuego</td>
+                            <td>5.25</td>
+                            <form action="revision-alumno.html">
+                                <td><button type="submit" class="btn btn-primary">Revisar tu exámen</button></td>
+                            </form>
+                        </tr>
+
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -89,3 +83,4 @@
         <script src="BOOTSTRAP/vendor/jquery/jquery.min.js "></script>
         <script src="BOOTSTRAP/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
     </body>
+</html>

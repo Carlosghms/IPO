@@ -1,8 +1,17 @@
 
 body{
     background:#ffda5f;
-     
+
 }
+
+.fa-check{
+    color: chartreuse;
+}
+
+.fa-times{
+    color:firebrick;
+}
+
 .login-block {
     background: linear-gradient(0deg, #ffda5f 0, #fff1c4 100%);
     /* fallback for old browsers */
@@ -63,7 +72,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     color:#fe3232;
-    
+
 }
 
 h3:after {
@@ -98,7 +107,7 @@ h3:after {
     font-weight: 800;
     font-size: 30px;
     color: #f16868;
-    
+
 }
 
 .banner-text h2:after {
@@ -114,23 +123,11 @@ h3:after {
 
 .banner-text p {
     font-weight: 600;
-    
+
 }
 
 #box {
-     padding: 25px;
-}
-#picture4 {
-    border-radius: 10px;
-    position: relative;
-    margin-bottom: 28%;
-    margin-top: 40%;
-}
-#picture5 {
-    border-radius: 10px;
-    margin-bottom: -1px;
-    margin-top: 25px;
-    position: relative;  
+    padding: 25px;
 }
 
 

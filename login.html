@@ -1,237 +1,264 @@
 <!doctype html>
 <html lang="en">
 
-<head>
+    <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <title>Aprende historia</title>
+        <title>Aprende historia</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="BOOTSTRAP/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="BOOTSTRAP/vendor/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css"
-	rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="BOOTSTRAP/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="BOOTSTRAP/vendor/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css"
+              rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <!-- Custom fonts for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="CSS/navigationHeader.css" rel="stylesheet">
-    <link href="CSS/csslogin.css" rel="stylesheet">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
+        <!-- Custom styles for this template -->
+        <link href="CSS/navigationHeader.css" rel="stylesheet">
+        <link href="CSS/csslogin.css" rel="stylesheet">
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
 
-/* Set a style for all buttons */
-button {
-    background-color: #b0ce35;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
+            /* Full-width input fields */
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
 
-button:hover {
-    opacity: 0.8;
-}
+            /* Set a style for all buttons */
+            button {
+                background-color: #b0ce35;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #fe3232;
-}
+            button:hover {
+                opacity: 0.8;
+            }
 
-/* Center the image and position the close button */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
-}
+            /* Extra styles for the cancel button */
+            .cancelbtn {
+                width: auto;
+                padding: 10px 18px;
+                background-color: #fe3232;
+            }
 
-img.avatar {
-    width: 30%;
-    border-radius: 50%;
-    
-}
+            /* Center the image and position the close button */
+            .imgcontainer {
+                text-align: center;
+                margin: 24px 0 12px 0;
+                position: relative;
+            }
 
-.container {
-    padding:;
-}
+            img.avatar {
+                width: 30%;
+                border-radius: 50%;
 
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
+            }
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 60px;
-}
+            .container {
+                padding:;
+            }
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 40%; /* Could be more or less, depending on screen size */
-}
+            span.psw {
+                float: right;
+                padding-top: 16px;
+            }
 
-/* The Close Button (x) */
-.close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-}
+            /* The Modal (background) */
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                padding-top: 60px;
+            }
 
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
-}
+            /* Modal Content/Box */
+            .modal-content {
+                background-color: #fefefe;
+                margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+                border: 1px solid #888;
+                width: 40%; /* Could be more or less, depending on screen size */
+            }
 
-/* Add Zoom Animation */
-.animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-}
+            /* The Close Button (x) */
+            .close {
+                position: absolute;
+                right: 25px;
+                top: 0;
+                color: #000;
+                font-size: 35px;
+                font-weight: bold;
+            }
 
-@-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
-}
-    
-@keyframes animatezoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
-}
+            .close:hover,
+            .close:focus {
+                color: red;
+                cursor: pointer;
+            }
 
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-}
-</style>
+            /* Add Zoom Animation */
+            .animate {
+                -webkit-animation: animatezoom 0.6s;
+                animation: animatezoom 0.6s
+            }
 
-</head>
-<body>
-<!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="/">¡APRENDE HISTORIA!</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-              <a class="nav-link" href="./signup.html">Modo Daltónico <i class="fa fa-eye"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./signup.html">Idioma <i class="fa fa-globe"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Conócenos <i class="fa fa-envelope"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-<!-- End Navigation -->
+            @-webkit-keyframes animatezoom {
+                from {-webkit-transform: scale(0)} 
+                to {-webkit-transform: scale(1)}
+            }
 
-    <section class="login-block">
-        <div class="container login mt-4">
-            <h3 class="text-center">¡Bienvenido!</h3>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 login-sec">
-                   <img class="img-fluid" id="picture" src="Images/teacher.JPG" alt="First slide" onclick="document.getElementById('id01').style.display='block'"> 
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 login-sec">
-                    <img class="img-fluid" id="picture" src="Images/alumnos.JPG" alt="First slide" onclick="document.getElementById('id01').style.display='block'">
+            @keyframes animatezoom {
+                from {transform: scale(0)} 
+                to {transform: scale(1)}
+            }
+
+            /* Change styles for span and cancel button on extra small screens */
+            @media screen and (max-width: 300px) {
+                span.psw {
+                    display: block;
+                    float: none;
+                }
+                .cancelbtn {
+                    width: 100%;
+                }
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="/">¡APRENDE HISTORIA!</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./signup.html">Modo Daltónico <i class="fa fa-eye"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./signup.html">Idioma <i class="fa fa-globe"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Conócenos <i class="fa fa-envelope"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+        <!-- End Navigation -->
+
+        <section class="login-block">
+            <div class="container login mt-4">
+                <h3 class="text-center">¡Bienvenido!</h3>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 login-sec">
+                        <img class="img-fluid" id="picture" src="Images/teacher.JPG" alt="First slide" onclick="document.getElementById('id01').style.display='block'"> 
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 login-sec">
+                        <img class="img-fluid" id="picture" src="Images/alumnos.JPG" alt="First slide" onclick="document.getElementById('id02').style.display='block'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="clase-profesor.html">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="Images/avatar.JPG" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Nombre de usuario</b></label>
+                    <input type="text" placeholder="Nombre de usuario" name="uname" required>
+
+                    <label for="psw"><b>Contraseña</b></label>
+                    <input type="password" placeholder="Contraseña" name="psw" required>
+
+                    <button type="submit">Entrar</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Recuerdame
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                    <span class="psw">¿Olvidó la <a href="#">contraseña?</a></span>
+                </div>
+            </form>
         </div>
-    </section>
+        <div id="id02" class="modal">
 
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="clase.html">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="Images/avatar.JPG" alt="Avatar" class="avatar">
-    </div>
+            <form class="modal-content animate" action="clase.html">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="Images/avatar.JPG" alt="Avatar" class="avatar">
+                </div>
 
-    <div class="container">
-      <label for="uname"><b>Nombre de usuario</b></label>
-      <input type="text" placeholder="Nombre de usuario" name="uname" required>
+                <div class="container">
+                    <label for="uname"><b>Nombre de usuario</b></label>
+                    <input type="text" placeholder="Nombre de usuario" name="uname" required>
 
-      <label for="psw"><b>Contraseña</b></label>
-      <input type="password" placeholder="Contraseña" name="psw" required>
-        
-      <button type="submit">Entrar</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Recuerdame
-      </label>
-    </div>
+                    <label for="psw"><b>Contraseña</b></label>
+                    <input type="password" placeholder="Contraseña" name="psw" required>
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-      <span class="psw">¿Olvidó la <a href="#">contraseña?</a></span>
-    </div>
-  </form>
-</div>
+                    <button type="submit">Entrar</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Recuerdame
+                    </label>
+                </div>
 
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancelar</button>
+                    <span class="psw">¿Olvidó la <a href="#">contraseña?</a></span>
+                </div>
+            </form>
+        </div>
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-     <!-- Bootstrap core JavaScript -->
-    <script src="BOOTSTRAP/vendor/jquery/jquery.min.js "></script>
-    <script src="BOOTSTRAP/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
-   
-</body>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+        <!-- Bootstrap core JavaScript -->
+        <script src="BOOTSTRAP/vendor/jquery/jquery.min.js "></script>
+        <script src="BOOTSTRAP/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+
+    </body>
 
 </html>

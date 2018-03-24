@@ -24,7 +24,6 @@
         <link href="CSS/csslogin.css" rel="stylesheet">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
     </head>
     <body>
         <!-- Navigation -->
@@ -38,10 +37,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="clase.html">Atrás <i class="fa fa-arrow-left"></i></a>
+                            <a class="nav-link" href="./signup.html">Profesor: Jorge López <i class="fa fa-user"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./signup.html">Javier García <i class="fa fa-user"></i></a>
+                            <a class="nav-link" href="progreso.html">Progreso del curso <i class="fa fa-chart-bar"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.html">Salir <i class="fa fa-sign-out-alt"></i></a>
@@ -51,41 +50,52 @@
             </div>
         </nav>
         <!-- End Navigation -->
-
         <section class="login-block">
             <div class="container login mt-4">
-                <h3 class="text-center">Evaluación!</h3>
-                <form action="notas.html">
-                    <div align="center">
-                        <button type="submit" class="btn btn-primary">Ver mis notas!</button>
-                    </div>
-                </form>
                 <div class="row">
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href="examen-tipo.html"><img class="img-fluid" id="picture" src="Images/fuego.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 1: Descubriendo el Fuego</p>
+                    <div class="col-12">
+                        <h3 class="text-center">¡Progreso de tus Alumnos!</h3>
                     </div>
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href=""><img class="img-fluid" id="picture" src="Images/metales.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 1: La edad de los metales</p>
+                </div>
+                <div class="list-group">Javier García
+                    <a href="#" class="list-group-item active">Javier García</a>
+                    <a href="#" class="list-group-item">Jose Luis Domínguez</a>
+                    <a href="#" class="list-group-item">Lucía Serrano</a>
+                    <a href="#" class="list-group-item">Rebeca Gutiérrez</a>
+                    <a href="#" class="list-group-item">Francisco Navarro</a>
+                </div>
+            </div>
+            <div class="container login mt-4">
+                <div class="row" align="center">
+                    <div class="col-12">
+                        <h3 class="text-center">¡Gráfica de progreso!</h3>
                     </div>
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href=""><img class="img-fluid" id="picture" src="Images/ganaderia.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 1: La ganadería</p>
+                    <div class="col-12">
+                        <a><img class="img-fluid" src="Images/grafico-alumno.jpg"></a>
                     </div>
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href=""><img class="img-fluid" id="picture" src="Images/grecia.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 2: La Grecia Antigua</p>
+                </div>
+            </div>
+            <div class="container login mt-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center">¡Revisión de Exámenes!</h3>
                     </div>
-                    <div id="box" class="col-xs-12 col-sm-4 col-md-4 login-sec">
-                        <a href=""><img class="img-fluid" id="picture" src="Images/roma.jpg" alt="First slide"></a>
-                        <p id="pie" class="text-center">Exámen del tema 2: Los Romanos</p>
-                    </div>
+                </div>
+                <div class="list-group">
+                    <a href="revision.html" class="list-group-item list-group-item-action">Exámen del tema 1: Descubriendo el Fuego</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-success">Exámen del tema 1: La edad de los metales</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info">Exámen del tema 1: La ganadería</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Exámen del tema 2: La Grecia Antigua</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Exámen del tema 2: Los Romanos</a>
                 </div>
             </div>
         </section>
 
+
         <!-- Bootstrap core JavaScript -->
         <script src="BOOTSTRAP/vendor/jquery/jquery.min.js "></script>
         <script src="BOOTSTRAP/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+
     </body>
+
+</html>
