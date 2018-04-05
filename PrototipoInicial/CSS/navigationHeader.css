@@ -7,7 +7,12 @@
 }
 
 #mainNav .navbar-brand{
-    font-weight:800;color:#fff
+    font-weight:800;
+    
+}
+
+#TitleText{
+  color:red;
 }
 
 #mainNav .navbar-toggler{
